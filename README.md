@@ -8,28 +8,28 @@ Users can create, update, delete, and search tasks by name or ID. The backend us
 ## 🚀 Features
 
 ### Backend
+
 - RESTful API with **CRUD** operations for tasks
 - **JWT Authentication** (protect routes)
-- Search tasks by **ID or title**
 - MongoDB database for persistence
 
 ### Frontend
+
 - Responsive UI built with **Next.js + Tailwind CSS**
 - Create, update, and view tasks
-- Search tasks by name (user-friendly)
 - Real-time feedback (loading/error states)
 
 ---
 
 ## 💻 Tech Stack
 
-| Layer       | Technology                        |
-|------------ |----------------------------------|
-| Backend     | Node.js, Express.js, MongoDB      |
-| Frontend    | Next.js, React, Tailwind CSS      |
-| Authentication | JWT (JSON Web Token)            |
-| Database    | MongoDB Atlas                     |
-| Styling    | Tailwind CSS                       |
+| Layer          | Technology                   |
+| -------------- | ---------------------------- |
+| Backend        | Node.js, Express.js, MongoDB |
+| Frontend       | Next.js, React, Tailwind CSS |
+| Authentication | JWT (JSON Web Token)         |
+| Database       | MongoDB Atlas                |
+| Styling        | Tailwind CSS                 |
 
 ---
 
@@ -38,10 +38,12 @@ Users can create, update, delete, and search tasks by name or ID. The backend us
 1. Clone the repository:
 
 # Backend
+
 cd backend
 npm install
 
 # Frontend
+
 cd ../frontend
 npm install
 
@@ -50,16 +52,18 @@ JWT_SECRET=your_jwt_secret
 PORT=5000
 
 # Backend
+
 cd backend
 npm run dev
 
 # Frontend
+
 cd ../frontend
 npm run dev
-
 
 Backend runs on http://localhost:5000
 Frontend runs on http://localhost:3000
 
-
 ```bash
+
+```

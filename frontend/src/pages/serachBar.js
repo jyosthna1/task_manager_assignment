@@ -22,7 +22,7 @@ function TaskSearch() {
       };
       const { data } = await axios.get(
         `http://localhost:5000/api/v1/tasks/${taskId}`,
-        config
+        config,
       );
       setTask(data);
     } catch (err) {
