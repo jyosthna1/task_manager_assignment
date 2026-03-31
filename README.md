@@ -63,5 +63,3 @@ Frontend runs on http://localhost:3000
 
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd assignmentproject
